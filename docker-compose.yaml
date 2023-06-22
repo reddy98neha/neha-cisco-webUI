@@ -1,0 +1,9 @@
+
+version: '3.8'
+services:
+  neha-ui-app:
+    image: neha-web:app$BUILD_NUMBER
+    build: .
+    container_name: nehac1
+    ports:
+    - 1234:80
