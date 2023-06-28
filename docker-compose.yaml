@@ -4,6 +4,6 @@ services:
   neha-ui-app:
     image: neha-web:app$BUILD_NUMBER
     build: .
-    container_name: nehac2
+    container_name: nehac3
     ports:
-    - 2832:80
+    - 1998:80
